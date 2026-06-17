@@ -58,8 +58,7 @@ st.markdown("""
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #1a1a1a !important;
-        font-weight: bold !important;
+        color: #0d1117 !important;
     }
     .metric-container {
         background: white;
@@ -74,7 +73,6 @@ st.markdown("""
         padding: 15px;
         border-radius: 5px;
         margin: 10px 0;
-        font-weight: bold;
     }
     .alert-warning {
         background: linear-gradient(135deg, #ffa502 0%, #ff6b35 100%);
@@ -82,7 +80,6 @@ st.markdown("""
         padding: 15px;
         border-radius: 5px;
         margin: 10px 0;
-        font-weight: bold;
     }
     .alert-success {
         background: linear-gradient(135deg, #51cf66 0%, #40c057 100%);
@@ -90,10 +87,9 @@ st.markdown("""
         padding: 15px;
         border-radius: 5px;
         margin: 10px 0;
-        font-weight: bold;
     }
-    .stMarkdown p, .stMarkdown h4 {
-        color: #1a1a1a !important;
+    .stMarkdown {
+        color: #0d1117 !important;
     }
 </style>
 """, unsafe_allow_html=True)
